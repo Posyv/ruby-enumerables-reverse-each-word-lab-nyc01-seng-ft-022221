@@ -1,4 +1,4 @@
 def reverse_each_word (sentence)
 sentence = ["Hello there, and how are you?"]
-sentence.collect {|opposite| opposite.reverse}
+sentence.collect.split {|opposite| opposite.reverse}
 end
